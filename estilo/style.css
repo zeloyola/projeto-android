@@ -150,22 +150,25 @@ main img.pequeno {
     height: 90%;
 }
 
-aside {
+#versoes-androids{
     background-color: var(--cor0);
-    padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.254);
 }
 
-aside>h3{
+#versoes-androids>div{
+    padding: 10px;
+}
+
+#versoes-androids>h3{
     background-color: var(--cor4);
     color: white;
     padding: 10px;
-    margin: -10px -10px 0px 0px;
+    /* margin: -10px -10px 0px 0px; */
     border-radius: 10px 10px 0px 0px;
 }
 
-aside>ul {
+#versoes-androids>div>ul {
     list-style-type: '\2714\0020';
     list-style-position: inside;
     columns: 2;
